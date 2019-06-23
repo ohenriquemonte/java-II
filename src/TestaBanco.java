@@ -7,7 +7,7 @@ public class TestaBanco {
 		// paulo.cpf = "222.222.222-22";
 		// paulo.profissao = "Programador";
 		
-		Conta contaDoPaulo = new Conta();
+		Conta contaDoPaulo = new Conta(123,433);
 		
 		contaDoPaulo.deposita(100);
 		
